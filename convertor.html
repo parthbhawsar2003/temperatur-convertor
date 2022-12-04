@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+<body>
+
+
+    
+    
+
+
+
+<div class="mbox">
+    <h1 class="heading">Temperature Convertor </h1>
+    <form id="tempCalc" onsubmit="calculateTemp(); return false">
+        <label for="temp"><h3>Enter degree</h3></label><br>
+
+        <input type="number" name="temp" id="temp"><br>
+
+        <h3 class="heading">Type</h3>
+        <select name="temp_difference" id="temp_difference">
+            <option value="non">Enter Type of Your Degree</option>
+            <option value="cel">°Celsius</option>
+            <option value="far">°Farenheight</option>
+            <!-- <option value="kel">°Kelvin</option> -->
+        </select>
+        <br>
+       
+        <h3 class="heading">Result</h3>
+<div id="resultcontainer"><output></output></div>
+
+<input type="submit" name="temp" class="button"><br>
+    </form>
+</div>
+
+<!-- .............................................. -->
+<section class="footer">
+    <div class="social">
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-snapchat"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-github"></i></a>
+    </div>
+    <div class="copyright">
+    <p class="bottom">
+        Made By Parth With ❤ 
+    </p>
+    </div>
+  </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
